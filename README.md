@@ -1,9 +1,8 @@
 # vue2-toast-styles
 Toaster for Vue2 with styles
-Based on: (https://github.com/lin-xin/vue-toast/blob/master/README_zh.md)
+Based on: (https://github.com/lin-xin/vue-toast)
 
 ## screenshots
-![image](https://raw.githubusercontent.com/AndresCL/vue-toast/master/screenshots/1.gif)
 
 ```$toast.center('This is a sample message...', 'success');```
 
@@ -20,6 +19,8 @@ Based on: (https://github.com/lin-xin/vue-toast/blob/master/README_zh.md)
 ```$toast.center('This is a sample message...', 'error');```
 
 ![image](https://raw.githubusercontent.com/AndresCL/vue-toast/master/screenshots/error.png)
+
+![image](https://raw.githubusercontent.com/AndresCL/vue-toast/master/screenshots/1.gif)
 
 ## Usage
 Install:
