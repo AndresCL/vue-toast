@@ -1,13 +1,21 @@
-# vue2-toast
-A mobile toast plugin for vue2. [中文文档](https://github.com/lin-xin/vue-toast/blob/master/README_zh.md)
+# vue2-toast-styles
+Toaster for Vue2 with styles
+Based on: (https://github.com/lin-xin/vue-toast/blob/master/README_zh.md)
 
-<p>
-  <a href="https://www.npmjs.com/package/vue2-toast"><img src="https://img.shields.io/npm/dm/vue2-toast.svg" alt="Downloads"></a>
-  <a href="https://www.npmjs.com/package/vue2-toast"><img src="https://img.shields.io/npm/v/vue2-toast.svg" alt="Version"></a>
-  <br>
-</p>
+## screenshots
+![image](https://raw.githubusercontent.com/AndresCL/vue-toast/master/screenshots/1.gif)
 
-[Interactive Demo](http://blog.gdfengshuo.com/example/#/vue2-toast)
+```$toast.center('This is a sample message...', 'success');```
+(https://raw.githubusercontent.com/AndresCL/vue-toast/master/screenshots/success.png)
+
+```$toast.center('This is a sample message...', 'info');```
+(https://raw.githubusercontent.com/AndresCL/vue-toast/master/screenshots/info.png)
+
+```$toast.center('This is a sample message...', 'warning');```
+(https://raw.githubusercontent.com/AndresCL/vue-toast/master/screenshots/warning.png)
+
+```$toast.center('This is a sample message...', 'error');```
+(https://raw.githubusercontent.com/AndresCL/vue-toast/master/screenshots/error.png)
 
 ## Usage
 Install:
@@ -48,13 +56,16 @@ Use in component:
 export default {
     methods:{
         openTop(){
-            this.$toast.top('top');
+            this.$toast.top('top', 'success');
         },
         openCenter(){
-            this.$toast.center('center');
+            this.$toast.center('center', 'info');
+        },
+        openCenter(){
+            this.$toast('bottom', 'warning');  
         },
         openBottom(){
-            this.$toast('bottom');  // or this.$toast.bottom('bottom'); 
+            this.$toast('bottom', 'danger');  
         },
         openLoading(){
             this.$loading('loading...');
@@ -93,7 +104,4 @@ build: {
 - width : width of Toast. | String | default: 'auto'
 
 ## source code
-download in [Github](https://github.com/lin-xin/vue-toast).
-
-## demo
-![image](https://raw.githubusercontent.com/lin-xin/vue-toast/master/screenshots/1.gif)
+download in [Github](https://github.com/AndresCL/vue-toast-with-styles).

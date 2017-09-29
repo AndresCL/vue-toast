@@ -39,6 +39,26 @@
     bottom: inherit;
 }
 
+.lx-toast.success {
+    background: rgba(16, 201, 161, 0.9);
+    color: #fff;
+}
+
+.lx-toast.info {
+    background: rgba(24, 156, 233, 0.9);
+    color: #fff;
+}
+
+.lx-toast.warning {
+    background: rgba(222, 230, 0, 0.9);
+    color: #fff;
+}
+
+.lx-toast.danger {
+    background: rgba(224, 38, 25, 0.9);
+    color: #fff;
+}
+
 @keyframes show-toast {
     from {
         opacity: 0;
