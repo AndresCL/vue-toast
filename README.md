@@ -2,31 +2,11 @@
 Toaster for Vue2 with styles
 Based on: (https://github.com/lin-xin/vue-toast)
 
-## screenshots
-
-```$toast.center('This is a sample message...', 'success');```
-
-![image](https://raw.githubusercontent.com/AndresCL/vue-toast/master/screenshots/success.png)
-
-```$toast.center('This is a sample message...', 'info');```
-
-![image](https://raw.githubusercontent.com/AndresCL/vue-toast/master/screenshots/info.png)
-
-```$toast.center('This is a sample message...', 'warning');```
-
-![image](https://raw.githubusercontent.com/AndresCL/vue-toast/master/screenshots/warning.png)
-
-```$toast.center('This is a sample message...', 'error');```
-
-![image](https://raw.githubusercontent.com/AndresCL/vue-toast/master/screenshots/error.png)
-
-![image](https://raw.githubusercontent.com/AndresCL/vue-toast/master/screenshots/1.gif)
-
 ## Usage
 Install:
 
 ```
-npm install vue2-toast -S
+npm install vue2-toast-with-styles --save
 ```
 Import:
 
@@ -85,6 +65,27 @@ export default {
     }
 }
 ```
+
+## screenshots
+
+```$toast.center('This is a sample message...', 'success');```
+
+![image](https://raw.githubusercontent.com/AndresCL/vue-toast/master/screenshots/success.png)
+
+```$toast.center('This is a sample message...', 'info');```
+
+![image](https://raw.githubusercontent.com/AndresCL/vue-toast/master/screenshots/info.png)
+
+```$toast.center('This is a sample message...', 'warning');```
+
+![image](https://raw.githubusercontent.com/AndresCL/vue-toast/master/screenshots/warning.png)
+
+```$toast.center('This is a sample message...', 'error');```
+
+![image](https://raw.githubusercontent.com/AndresCL/vue-toast/master/screenshots/error.png)
+
+![image](https://raw.githubusercontent.com/AndresCL/vue-toast/master/screenshots/1.gif)
+
 ## work in Nuxt.js
 config it in nuxt.config.js
 
