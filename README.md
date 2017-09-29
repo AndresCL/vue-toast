@@ -6,20 +6,16 @@ Based on: (https://github.com/lin-xin/vue-toast/blob/master/README_zh.md)
 ![image](https://raw.githubusercontent.com/AndresCL/vue-toast/master/screenshots/1.gif)
 
 ```$toast.center('This is a sample message...', 'success');```
-![image]
-(https://raw.githubusercontent.com/AndresCL/vue-toast/master/screenshots/success.png)
+![image](https://raw.githubusercontent.com/AndresCL/vue-toast/master/screenshots/success.png)
 
 ```$toast.center('This is a sample message...', 'info');```
-![image]
-(https://raw.githubusercontent.com/AndresCL/vue-toast/master/screenshots/info.png)
+![image](https://raw.githubusercontent.com/AndresCL/vue-toast/master/screenshots/info.png)
 
 ```$toast.center('This is a sample message...', 'warning');```
-![image]
-(https://raw.githubusercontent.com/AndresCL/vue-toast/master/screenshots/warning.png)
+![image](https://raw.githubusercontent.com/AndresCL/vue-toast/master/screenshots/warning.png)
 
 ```$toast.center('This is a sample message...', 'error');```
-![image]
-(https://raw.githubusercontent.com/AndresCL/vue-toast/master/screenshots/error.png)
+![image](https://raw.githubusercontent.com/AndresCL/vue-toast/master/screenshots/error.png)
 
 ## Usage
 Install:
