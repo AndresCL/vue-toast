@@ -1,4 +1,4 @@
-# vue2-toast-styles
+# vue2-toast-with-styles
 Toaster for Vue2 with styles
 Based on: (https://github.com/lin-xin/vue-toast)
 
@@ -11,14 +11,14 @@ npm install vue2-toast-with-styles --save
 Import:
 
 ```javascript
-import 'vue2-toast/lib/toast.css';
-import Toast from 'vue2-toast';
+import 'vue2-toast-with-styles/lib/toast.css';
+import Toast from 'vue2-toast-with-styles';
 Vue.use(Toast);
 ```
 or
 ```javascript
-import 'vue2-toast/lib/toast.css';
-import Toast from 'vue2-toast';
+import 'vue2-toast-with-styles/lib/toast.css';
+import Toast from 'vue2-toast-with-styles';
 Vue.use(Toast, {
     defaultType: 'center',
     duration: 3000,
@@ -91,7 +91,7 @@ config it in nuxt.config.js
 
 ```js
 build: {
-	vendor: ['vue2-toast'],
+	vendor: ['vue2-toast-with-styles'],
 	extend (config, ctx) {
 	  if (ctx.isClient) {
 	    config.resolve.alias['vue'] = 'vue/dist/vue.js';
